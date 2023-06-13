@@ -11,12 +11,12 @@ function SimpleCounter(props) {
   return (
     <div className="container-fluid">
       <div className="big-counter">
-        <div className="seis box">0</div>
-        <div className="cinco box">0</div>
-        <div className="cuatro box">0</div>
-        <div className="tres box">0</div>
-        <div className="dos box">0</div>
-        <div className="uno box">0</div>
+        <div className="seis">0</div>
+        <div className="cinco">0</div>
+        <div className="cuatro">0</div>
+        <div className="tres">0</div>
+        <div className="dos">0</div>
+        <div className="uno">0</div>
       </div>
     </div>
   );

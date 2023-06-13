@@ -10,22 +10,18 @@
 
 */
 .big-counter {
-  width: 100%;
   background-color: black;
-  height: 200px;
-  color: white;
-  font-size: 110px;
   text-align: center;
-  margin-bottom: 1pc;
 }
-.box {
+.big-counter div {
   display: inline-block;
-  height: 170px;
+  font-size: 110px;
+  line-height: 110px;
   background-color: #0e0e0e;
   border-radius: 10px;
-  margin-top: 1pc;
-  padding-bottom: 1pc;
+  margin-top: 10px;
   width: 100px;
   margin-left: 10px;
   margin-bottom: 30px;
+  color: white;
 }
