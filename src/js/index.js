@@ -6,7 +6,21 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+
+function SimpleCounter(props) {
+  return (
+    <div className="container-fluid">
+      <div className="big-counter">
+        <div className="seis box">0</div>
+        <div className="cinco box">0</div>
+        <div className="cuatro box">0</div>
+        <div className="tres box">0</div>
+        <div className="dos box">0</div>
+        <div className="uno box">0</div>
+      </div>
+    </div>
+  );
+}
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<SimpleCounter />, document.querySelector("#app"));
