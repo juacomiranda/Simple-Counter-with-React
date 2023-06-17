@@ -6,10 +6,15 @@ import SimpleCounter from "./seconscounter";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
+
+var counter = 0;
+
+setInterval( ()=>{counter++}, 1000);
+
 const Home = () => {
 	return (
 		<>
-			<SimpleCounter />
+			<SimpleCounter seconds={counter}/>
 		</>
 	);
 };
